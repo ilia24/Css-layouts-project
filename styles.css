@@ -71,10 +71,9 @@ header li {
 }
 .number {
   font-weight: 600;
-  /*text-decoration: underline;*/
   border-bottom: 3px solid;
   border-color: rgb(252, 215, 39);
-  /*text-decoration-color: rgb(252, 215, 39);*/
+/*used border instead of text decoration for proper spacing*/
 }
 .primary .picpack {
   display: inline-block;
