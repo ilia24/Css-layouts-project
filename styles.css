@@ -34,6 +34,7 @@ margin: 1em 0;
   box-sizing: border-box;
 }
 /*END RESET*/
+
 header {
   text-align: center;
 }
@@ -45,6 +46,7 @@ header h1 {
   color: white;
   font-weight: 900;
   letter-spacing: -1px;
+  margin-top: 1px;
 }
 
 header li {
@@ -55,9 +57,39 @@ header li {
   font-size: 20px;
   font-weight: 800;
   color: white;
+  margin-top: 1px;
 }
 
-
+.photocount {
+  background-color: rgb(158, 252, 211);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.photocount h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.number {
+  font-weight: 600;
+  /*text-decoration: underline;*/
+  border-bottom: 3px solid;
+  border-color: rgb(252, 215, 39);
+  /*text-decoration-color: rgb(252, 215, 39);*/
+}
+.primary .picpack {
+  display: inline-block;
+  text-align: center;
+}
+.primary .picpack p{
+  background-color: rgb(250, 216, 43);
+  padding: 10px 0px 8px 0px;
+  font-size: 20px;
+  margin-top: 1px;
+  margin-bottom: 12px;
+}
 
 
 footer {
